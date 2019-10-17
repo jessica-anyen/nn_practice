@@ -1,5 +1,4 @@
-# nn_practice
-類神經網路練習
+# mnist 手寫數字辨識
 
 首先使用save_model.py 建立模型，找到模型存在的位置
 
