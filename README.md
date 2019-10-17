@@ -12,17 +12,19 @@
 3. 判斷pixel值，0.5~0.6適合較粗的筆跡，較細的門檻要調整0.01較適合
 
 ### 小筆記
--- reshape vs resize
-皆適用於矩陣
+-- reshape vs resize 皆適用於矩陣
 reshape: 會返回新值、不影響原有矩陣
 resize:會返回新值、並影響原有矩陣
 
 ### 參考資料 reference
- 用倒傳遞BPN寫MNIST
+1.用倒傳遞BPN寫MNIST
 https://github.com/TwVenus/BPN-for-MNIST
+
 2. mnist 範例
 https://blog.techbridge.cc/2018/01/27/tensorflow-mnist/
+
 3. tensorflow example之後的作業會用到)
 https://github.com/aymericdamien/TensorFlow-Examples
+
 4.手寫數字圖片轉為 28 * 28 方法
 https://www.zhihu.com/question/55963897
