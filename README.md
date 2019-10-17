@@ -13,7 +13,9 @@
 
 ### 小筆記
 -- reshape vs resize 皆適用於矩陣
+
 reshape: 會返回新值、不影響原有矩陣
+
 resize:會返回新值、並影響原有矩陣
 
 ### 參考資料 reference
