@@ -78,7 +78,7 @@ with tf.Session() as sess:
     sess.run(init)
 
     # Training cycle
-    for epoch in range(3):
+    for epoch in range(5): #這邊可以設定要跑幾次
         avg_cost = 0.
         total_batch = int(mnist.train.num_examples/batch_size)
         # Loop over all batches
@@ -116,7 +116,7 @@ with tf.Session() as sess:
     print("Model restored from file: %s" % save_path)
 
     # Resume training
-    for epoch in range(7):
+    for epoch in range(10): #這邊可以設定要跑幾次
         avg_cost = 0.
         total_batch = int(mnist.train.num_examples / batch_size)
         # Loop over all batches
