@@ -64,7 +64,9 @@ resize:會返回新值、並影響原有矩陣
 
 {% file src=".gitbook/assets/mnist\_keras.7z" %}
 
+#### \#完成註解說明版
 
+見github: nn\_practice
 
 ## \#參考資料
 
