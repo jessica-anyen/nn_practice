@@ -66,7 +66,7 @@ resize:會返回新值、並影響原有矩陣
 
 #### \#完成註解說明版
 
-見github: nn\_practice
+見github: nn\_practice 
 
 ## \#參考資料
 
