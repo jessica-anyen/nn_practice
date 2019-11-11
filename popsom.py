@@ -2,6 +2,8 @@
 #som 動物圖:註解篇
 -環境適用:nntest3
 -參考資料:https://github.com/njali2001/popsom
+-pandas 0.20.3
+-py版本 3.5~3.6
 """
 import sys
 import numpy as np
@@ -519,14 +521,37 @@ class map:
 				iy = c[1]
 
 				# 每一個cell只印一個label
+				#print(count[ix-1, iy-1])
+				"""
+				# we only print one label per cell
 				if count[ix-1, iy-1] > 0:
+				#if count[ix-1, iy-1] > 1:
 
 					count[ix-1, iy-1] = 0
 					ix = ix - .5
 					iy = iy - .5
 					l = self.labels[i]
 					plt.text(ix+1, iy+1, l)
+				
+					# jc add for 顯示兩個label
+				"""	
+			  	# we only print one label per cell
+				if count[ix-1, iy-1] > 1:
 
+					count[ix-1, iy-1] -= 1
+					ix = ix
+					iy = iy - .5
+					l = self.labels[i]
+					plt.text(ix+1, iy+1, " & " + l)
+					
+				elif count[ix-1, iy-1] > 0:
+    
+					count[ix-1, iy-1] -= 1
+					ix = ix - .5
+					iy = iy - .5
+					l = self.labels[i]
+					plt.text(ix+1, iy+1, l)
+		
 		plt.show()
 
 	def compute_centroids(self, heat, explicit=False):
