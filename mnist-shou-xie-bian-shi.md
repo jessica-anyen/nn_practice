@@ -4,9 +4,9 @@ repositories:
 
 [https://github.com/jessica-anyen/nn\_practice](https://github.com/jessica-anyen/nn_practice)
 
-#### \#小筆記
+### \#小筆記
 
-- reshape vs resize
+* reshape vs resize
 
 皆適用於矩陣
 
@@ -18,9 +18,9 @@ resize:會返回新值、並影響原有矩陣
 
 ![](.gitbook/assets/image.png)
 
-#### [https://www.cnblogs.com/luruiyuan/p/6675073.html](https://www.cnblogs.com/luruiyuan/p/6675073.html)
+### [https://www.cnblogs.com/luruiyuan/p/6675073.html](https://www.cnblogs.com/luruiyuan/p/6675073.html)
 
-#### -one-hot=true
+### -one-hot=true
 
 把mnist数据集读取内存.读入方法的细节放在以后讨论.这里只有注意one\_hot=True这个参数.one\_hot表示用非零即1的数组保存图片表示的数值.比如一个图片上写的是0,内存中不是直接存一个0,而是存一个数组\[1,0,0,0,0,0,0,0,0,0\].一个图片上面写的是1,那个保存的就是\[0,1,0,0,0,0,0,0,0,0\]
 
@@ -32,13 +32,9 @@ resize:會返回新值、並影響原有矩陣
 
 [https://keras.io/zh/activations/\#\_1](https://keras.io/zh/activations/#_1)
 
-#### -
+### -
 
-#### 
-
-#### 
-
-#### \#寶哥code
+### \#寶哥code
 
 -優點:準確度高、數學式易解釋
 
@@ -52,7 +48,7 @@ resize:會返回新值、並影響原有矩陣
 
 {% file src=".gitbook/assets/xor\_neuralnetwork.7z" %}
 
-#### \#load\_predict & keras\_mnist\_test
+### \#load\_predict & keras\_mnist\_test
 
 優點:具模型儲存功能、準確度高、可接受位元深度不為1的檔案
 
@@ -64,33 +60,26 @@ resize:會返回新值、並影響原有矩陣
 
 {% file src=".gitbook/assets/mnist\_keras.7z" %}
 
-#### \#完成註解說明版
+### \#完成註解說明版
 
-見github: nn\_practice 
+見github: nn\_practice
 
 ## \#參考資料
 
-1.  用倒傳遞BPN寫MNIST
+1. 用倒傳遞BPN寫MNIST
 
 [https://github.com/TwVenus/BPN-for-MNIST](https://github.com/TwVenus/BPN-for-MNIST)
 
-2. mnist 範例
+1. mnist 範例
 
 [https://blog.techbridge.cc/2018/01/27/tensorflow-mnist/](https://blog.techbridge.cc/2018/01/27/tensorflow-mnist/)
 
-3. tensorflow example之後的作業會用到\)
+1. tensorflow example之後的作業會用到\)
 
-{% embed url="https://github.com/aymericdamien/TensorFlow-Examples" %}
+{% embed url="https://github.com/aymericdamien/TensorFlow-Examples" caption="" %}
 
 4.手寫數字圖片轉為 28 \* 28 方法
 
-{% embed url="https://www.zhihu.com/question/55963897" %}
+{% embed url="https://www.zhihu.com/question/55963897" caption="" %}
 
-5. 
-
-
-
-
-
-
-
+1. 
