@@ -22,11 +22,15 @@
 
 #### \#其他人的som
 
+-各個版本
+
 {% embed url="http://mnemstudio.org/neural-networks-som2.htm" %}
 
-javascript版\(可線上網頁直接跑\)
+-javascript版\(可線上網頁直接跑\)
 
 [http://pirika.com/JP/ChemInfo/SOMdoubutu.html](http://pirika.com/JP/ChemInfo/SOMdoubutu.html)
 
+-西瓜甜度
 
+[https://www.jb51.net/article/135272.htm](https://www.jb51.net/article/135272.htm)
 
