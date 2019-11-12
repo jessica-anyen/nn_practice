@@ -32,5 +32,9 @@
 
 -西瓜甜度
 
-[https://www.jb51.net/article/135272.htm](https://www.jb51.net/article/135272.htm)
+{% embed url="https://www.jb51.net/article/135272.htm" %}
+
+-minisom\(程式簡短、多功能\)
+
+[https://github.com/JustGlowing/minisom\#notification-settings](https://github.com/JustGlowing/minisom#notification-settings)
 
