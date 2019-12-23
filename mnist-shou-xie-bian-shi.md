@@ -1,3 +1,7 @@
+---
+description: by bpn
+---
+
 # MNIST手寫辨識
 
 repositories:
