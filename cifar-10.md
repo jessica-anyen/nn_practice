@@ -28,7 +28,9 @@ ValueError: `validation_steps=None` is only valid for a generator based on the `
 
 [https://github.com/pierluigiferrari/ssd\_keras/issues/102](https://github.com/pierluigiferrari/ssd_keras/issues/102)
 
+用webcam拍照或錄影，直接使用model，判斷影像是甚麼東西
 
+[https://github.com/uchidama/CIFAR10-Prediction-In-Keras/blob/master/keras\_cifar10\_webcam\_prediction.ipynb](https://github.com/uchidama/CIFAR10-Prediction-In-Keras/blob/master/keras_cifar10_webcam_prediction.ipynb)
 
 
 
