@@ -1,4 +1,4 @@
-# cifar 10
+# cifar-10
 
 官方code
 
