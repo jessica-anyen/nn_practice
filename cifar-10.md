@@ -14,5 +14,9 @@
 
 各種優化編譯器\(ex: RMSProp、Adam\)
 
-[https://blog.csdn.net/willduan1/article/details/78070086](https://blog.csdn.net/willduan1/article/details/78070086)
+{% embed url="https://blog.csdn.net/willduan1/article/details/78070086" %}
+
+learning\_rate要改用lr:
+
+[https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argument-passed-to-optimizer-learning-rate](https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argument-passed-to-optimizer-learning-rate)
 
