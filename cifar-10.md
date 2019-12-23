@@ -20,3 +20,15 @@ learning\_rate要改用lr:
 
 [https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argument-passed-to-optimizer-learning-rate](https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argument-passed-to-optimizer-learning-rate)
 
+解決問題\(如下\)，需要添加的部分
+
+```text
+ValueError: `validation_steps=None` is only valid for a generator based on the `keras.utils.Sequence` class. Please specify `validation_steps` or use the `keras.utils.Sequence` class. 
+```
+
+[https://github.com/pierluigiferrari/ssd\_keras/issues/102](https://github.com/pierluigiferrari/ssd_keras/issues/102)
+
+
+
+
+
