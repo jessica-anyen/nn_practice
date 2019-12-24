@@ -24,9 +24,7 @@
 - 執行popsom.py
 - 跑出分群結果
 
-### 執行結果
 
-![GITHUB]( 圖片網址 "圖片名稱")
 
 ## mnist cnn 手寫數字辨識
 
@@ -44,3 +42,7 @@
 ### 操作步驟
 - 使用 **cifar_keras.py** 訓練模型 (耗時約4小時)
 - 使用 **cifar_10_test.py** 隨機選取10張圖，檢視測試結果
+
+### 執行結果
+
+![result]( https://github.com/jessica-anyen/nn_practice/blob/master/picture/predit1.png)
