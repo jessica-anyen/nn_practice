@@ -32,5 +32,7 @@ ValueError: `validation_steps=None` is only valid for a generator based on the `
 
 [https://github.com/uchidama/CIFAR10-Prediction-In-Keras/blob/master/keras\_cifar10\_webcam\_prediction.ipynb](https://github.com/uchidama/CIFAR10-Prediction-In-Keras/blob/master/keras_cifar10_webcam_prediction.ipynb)
 
+測試段:隨機給16張圖看測試結果
 
+[https://kknews.cc/zh-tw/code/voga4ga.html](https://kknews.cc/zh-tw/code/voga4ga.html)
 
