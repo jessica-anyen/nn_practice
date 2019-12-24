@@ -8,4 +8,11 @@
 - 先以 **keras_mnist_test.py**訓練資料 
 - 於小畫家手寫一數字，並將圖片存成28x28 
 - 以 **load_predict.py** 測試所寫數字，出現結果為: 
-<pre>the result is :預測數字<code>
+<code>the result is :預測數字 <code>
+
+
+## som 動物圖
+參考自[popsom](https://github.com/njali2001/popsom)
+-環境限定:
+> pandas 0.20.3
+> py版本 3.5~3.6
