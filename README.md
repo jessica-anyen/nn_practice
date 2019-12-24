@@ -52,7 +52,9 @@
 ### 執行結果
 
 **十張圖片**
+>
 ![result]( https://github.com/jessica-anyen/nn_practice/blob/master/picture/predit1.png)
 
 **使用自己的圖片**
+>
 ![result2]( https://github.com/jessica-anyen/nn_practice/blob/master/picture/cifar_input_result.PNG)
