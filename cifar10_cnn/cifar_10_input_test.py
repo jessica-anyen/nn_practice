@@ -1,3 +1,9 @@
+"""
+-title:cifar-10 輸入自己的圖片測試
+-author:Jessica Cheng(jc)
+-memo:需先使用ch8-1訓練完模型後載入使用
+-reference: https://github.com/uchidama/CIFAR10-Prediction-In-Keras
+"""
 from __future__ import print_function
 import keras
 from keras.datasets import cifar10
